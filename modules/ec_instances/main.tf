@@ -8,12 +8,6 @@ terraform {
   required_version = ">= 1.2.0"
 }
 
-variable "ami" {
-  description = "ami id (probably ubuntu machine)"
-}
-
-
-
 resource "aws_instance" "zenith" {
   ami = var.ami
   instance_type = var.instance_type

@@ -3,6 +3,10 @@ variable "instance_name" {
   default = "zenith"
 }
 
+variable "ami" {
+  description = "ami id (probably ubuntu machine)"
+}
+
 variable "instance_type" {
-  
+  description = "type of instance"
 }

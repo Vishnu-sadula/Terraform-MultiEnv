@@ -12,9 +12,7 @@ variable "ami" {
   description = "ami id (probably ubuntu machine)"
 }
 
-variable "instance_type" {
-    description = "instance type (t2.micro)"
-}
+
 
 resource "aws_instance" "zenith" {
   ami = var.ami

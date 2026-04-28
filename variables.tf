@@ -6,6 +6,7 @@ variable "secret_key" {
 
 }
 
+
 variable "ami" {
   
 }
